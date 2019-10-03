@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+ <remote  name="hongsea"
+           fetch="https://github.com/hongsea"
+           revision="master" />
+ <project path="/" name="apache2" remote="hongsea">
+  <project path="/" name="ftp" remote="hongsea">
+</manifest>
