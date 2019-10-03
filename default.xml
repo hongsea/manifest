@@ -3,6 +3,6 @@
  <remote  name="hongsea"
            fetch="https://github.com/hongsea"
            revision="master" />
- <project path="/" name="apache2" remote="hongsea"/>
-  <project path="/" name="ftp" remote="hongsea"/>
+    <project path="apache2" name="apache2" remote="hongsea"/>
+    <project path="ftp" name="ftp" remote="hongsea"/>
 </manifest>
