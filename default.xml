@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
- <remote  name="hongsea"
+    <remote  name="hongsea"
            fetch="https://github.com/hongsea"
+           revision="master" />
+    <remote  name="mrrbrilliant"
+           fetch="https://github.com/mrrbrilliant"
            revision="master" />
     <project path="apache2" name="apache2" remote="hongsea"/>
     <project path="ftp" name="ftp" remote="hongsea"/>
+    <project path="brilliant" name="rusty-graphy" remote="mrrbrilliant"/>
 </manifest>
